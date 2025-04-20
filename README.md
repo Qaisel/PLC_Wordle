@@ -55,7 +55,25 @@ Clone the repository:
 git clone https://github.com/Qaisel/PLC_Wordle.git
 ```
 
+### Compile using makefile
+---
 
+### Windows (via WSL) / Linux / Mac
+
+To use make, ensure that the current directory is the root directory of the project
+```
+# Build file
+make
+
+# Build and run
+make run
+
+# Clean up files
+make clean
+```
+
+### Compile manually
+----
 ### Windows (via WSL) / Linux
 
 Compile the program using:
